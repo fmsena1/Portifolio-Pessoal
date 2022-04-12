@@ -7,7 +7,10 @@ const Topo = ()=> {
             <h2>Filipe Sena</h2>
 
             <nav className='topo-links'>
-            <a href='#' className='topo-link'>Home</a>
+            <a className='topo-link' href='#'>Home</a>
+            <a className='topo-link' href='#'>Projetos</a>
+            <a className='topo-link' href='#'>Contato</a>
+            <a className='topo-link' href='#'>Skills</a>
             </nav>
         </div>
         </header>

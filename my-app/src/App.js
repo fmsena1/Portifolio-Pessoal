@@ -1,10 +1,10 @@
 import React from 'react'
-import Topo from "./componentes/Topo";
+import EstruturaPagina from './componentes/EstruturaPagina';
 
 function App() {
   return (
     <div className="App">
-      <Topo/>
+      <EstruturaPagina/>
     </div>
   );
 }

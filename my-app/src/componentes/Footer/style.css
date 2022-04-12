@@ -7,32 +7,18 @@
 
 
 
-.topo-container{
+.rodape{
     background-color: black;
     border-bottom:  2px solid rgb(8, 185, 117);
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
-}
-
-h2{
-    color: rgb(8, 185, 117);
-    font-size: 36px;
-}
-.topo-conteudo{
+    height: 40px;
     display: flex;
-    justify-content: space-around;
-}
-
-
-.topo-links{
-    display: inline-block;
-    margin: 10px;
-    font-size:  20px;
+    align-items: center;
+    margin-top: 40px;
+    color: rgb(8, 185, 117);
+    display: flex;
+    justify-content: center;
     
 }
 
-a{
-    margin: 10px;
-    text-decoration: none;
-    color: rgb(8, 185, 117);;
-}
+
