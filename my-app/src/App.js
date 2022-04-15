@@ -6,9 +6,9 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className="App">
-      <EstruturaPagina>
+      
         <Home></Home>
-      </EstruturaPagina>
+      
     
     </div>
   );

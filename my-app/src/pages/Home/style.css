@@ -31,7 +31,9 @@ p{
     text-align: center;
 }
 
-imagem-home{
+img{
     display: flex;
+    width: 400px;
+    margin: 20px;
     
 }

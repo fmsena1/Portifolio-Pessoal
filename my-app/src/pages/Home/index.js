@@ -1,9 +1,12 @@
 import React from "react";
 import './style.css';
+import EstruturaPagina from "../../componentes/EstruturaPagina";
+import imagemEscolhida from './img/user.png'
 
 
 const Home = ()=>{
     return(
+        <EstruturaPagina>
     <div className="main-container">
         <div className="container">
             <h1>
@@ -16,10 +19,11 @@ const Home = ()=>{
             </div>
         </div>
         <div className="imagem-home">
-            <img src="./img/user.png" alt="Filipe" />
+            <img src={imagemEscolhida} alt="Filipe" />
         </div>
             
 
-    </div>);
+    </div>
+    </EstruturaPagina>);
 }
 export default Home;
