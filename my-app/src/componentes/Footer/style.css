@@ -9,16 +9,25 @@
 
 .rodape{
     background-color: black;
-    border-bottom:  2px solid rgb(8, 185, 117);
+    border-top:  2px solid rgb(8, 185, 117);
     font-family: 'Poppins', sans-serif;
     height: 40px;
     display: flex;
     align-items: center;
-    margin-top: 40px;
-    color: rgb(8, 185, 117);
-    display: flex;
     justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: rgb(8, 185, 117);
+    padding: 10px;
     
 }
 
-
+.limite-container{
+    display: flex;
+    align-items: center;
+    
+}
+.links{
+    width: 35px;
+    margin: 0px;
+}

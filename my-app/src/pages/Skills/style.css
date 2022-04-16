@@ -1,0 +1,53 @@
+:root{
+    --primary:#23c561}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-skills{
+    background: black;
+    padding: 22px;
+}
+.title{
+    
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary);
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-container2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.card-skills{
+    background: #070707;
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 15px 0px #0f0f0f;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    
+}
+
+.title-card{
+    color: aliceblue;
+    text-align: center;
+}
+
+img{
+    width: 140px;
+    position: relative;
+    margin-left: 29px;
+    margin-right:29px ;
+    
+
+}
