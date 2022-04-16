@@ -7,13 +7,15 @@
 .main-container{
     background: black;
     font-family: 'Poppins', sans-serif;
+    padding: 45px;
     display: flex;
+    justify-content: center;
     
 }
 
 .container{
-    width: 60%;
-    display: inline-block;
+    width: 50%;
+    
     margin: 20px;
 
 }
@@ -43,7 +45,7 @@ img{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 620px;
 }
 
 button{

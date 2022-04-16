@@ -1,13 +1,12 @@
 import React from 'react'
-import EstruturaPagina from './componentes/EstruturaPagina';
 
-import Home from './pages/Home';
+import Skills from './pages/Skills';
 
 function App() {
   return (
     <div className="App">
       
-        <Home></Home>
+        <Skills></Skills>
       
     
     </div>
