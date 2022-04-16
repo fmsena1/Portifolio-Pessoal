@@ -15,9 +15,15 @@
     display: flex;
     align-items: center;
     color: rgb(8, 185, 117);
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 
-
+.limite-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.links{
+    width: 35px;
+}
