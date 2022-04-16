@@ -10,11 +10,37 @@
     background: black;
 }
 .title{
-    transform: rotate(-90deg);
+    
     border-left: 2px solid var(--primary);
 }
 h1{
     color: var(--primary);
     font-family: 'Poppins', sans-serif;
 }
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.card-skills{
+    background: #070707;
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 15px 0px #0f0f0f;
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    
+}
 
+.title-card{
+    color: aliceblue;
+    text-align: center;
+}
+
+img{
+    width: 140px;
+    position: relative;
+    margin-left: 29px;
+    margin-right:29px ;
+    
+
+}
