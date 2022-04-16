@@ -13,10 +13,6 @@ const Home = ()=>{
                 Olá, eu sou Filipe Magalhães Sena.
             </h1>
             <p>Estudante de Programação JavaScript.</p>
-            <div className="button-container">
-                <button>Contato</button>
-                <button>Projetos</button>
-            </div>
         </div>
         <div className="imagem-home">
             <img src={imagemEscolhida} alt="Filipe" />

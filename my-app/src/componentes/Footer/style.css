@@ -14,16 +14,20 @@
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
     color: rgb(8, 185, 117);
-    justify-content: space-around;
+    padding: 10px;
     
 }
 
 .limite-container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    
 }
 .links{
     width: 35px;
+    margin: 0px;
 }

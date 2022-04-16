@@ -6,20 +6,27 @@
     margin: 0;
     padding: 0;
 }
-.container{
+.container-skills{
     background: black;
+    padding: 22px;
 }
 .title{
     
-    border-left: 2px solid var(--primary);
-}
-h1{
-    color: var(--primary);
+    text-align: center;
+    font-size: 36px;
     font-family: 'Poppins', sans-serif;
+    color: var(--primary);
 }
+
 .card-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card-container2{
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 .card-skills{
     background: #070707;
@@ -27,7 +34,7 @@ h1{
     height: 200px;
     box-shadow: 5px 5px 15px 0px #0f0f0f;
     font-family: 'Poppins', sans-serif;
-    display: inline;
+    margin: 10px;
     
 }
 

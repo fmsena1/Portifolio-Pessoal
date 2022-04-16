@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import './style.css'
 import ImagemHtml from '../img/html.png';
@@ -11,7 +12,7 @@ import EstruturaPagina from "../../componentes/EstruturaPagina";
 const Skills = ()=>{
     return( 
         <EstruturaPagina>
-            <div className="container">
+            <div className="container-skills">
                 <div className="title">
                 <h1>Skills</h1>
                 </div>
@@ -28,6 +29,9 @@ const Skills = ()=>{
                     <img src={ImagemJS}></img>
                         <h2 className="title-card">JavaScript</h2>
                     </div>
+
+                </div>
+                <div className="card-container2">
                     <div className="card-skills">
                     <img src={ImagemReact}></img>
                         <h2 className="title-card">ReactJS</h2>
