@@ -33,7 +33,7 @@ p{
     text-align: center;
 }
 
-img{
+.img-perfil{
     display: flex;
     width: 400px;
     margin: 20px;

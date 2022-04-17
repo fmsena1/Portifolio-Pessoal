@@ -15,7 +15,7 @@ const Home = ()=>{
             <p>Estudante de Programação JavaScript.</p>
         </div>
         <div className="imagem-home">
-            <img src={imagemEscolhida} alt="Filipe" />
+            <img className="img-perfil" src={imagemEscolhida} alt="Filipe" />
         </div>
             
 

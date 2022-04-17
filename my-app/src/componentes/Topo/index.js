@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 const Topo = ()=> {
     return(
@@ -7,9 +8,10 @@ const Topo = ()=> {
             <h2>Filipe Sena</h2>
 
             <nav className='topo-links'>
-            <a className='topo-link' href='#'>Home</a>
-            <a className='topo-link' href='#'>Projetos</a>
-            <a className='topo-link' href='#'>Skills</a>
+                
+            <Link className='topo-link' to='/'>Home</Link>
+            <Link className='topo-link' to='/'>Projetos</Link>
+            <Link className='topo-link' to='/'>Skills</Link>
             </nav>
         </div>
         </header>
