@@ -8,6 +8,7 @@ const EstruturaPagina = ( props)=>{
     return(
         <section>
             <Topo/>
+            
              {props.children}
 
              <Footer/>

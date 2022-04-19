@@ -10,8 +10,8 @@ const Topo = ()=> {
             <nav className='topo-links'>
                 
             <Link className='topo-link' to='/'>Home</Link>
-            <Link className='topo-link' to='/'>Projetos</Link>
-            <Link className='topo-link' to='/'>Skills</Link>
+            <Link className='topo-link' to='/projeto'>Projetos</Link>
+            <Link className='topo-link' to='/skills'>Skills</Link>
             </nav>
         </div>
         </header>
