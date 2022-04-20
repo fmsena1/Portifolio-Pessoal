@@ -9,8 +9,8 @@ const Rotas = ()=>{
     <BrowserRouter>
         <Routes>
             <Route exact path="/" element={<Home/>}/>
-            <Route  path="/projeto" element={<Projetos/>}/>
-            <Route  path="/skills" element={<Skills/>}/>
+            <Route   exact path="/projeto" element={<Projetos/>}/>
+            <Route   exact path="/skills" element={<Skills/>}/>
         </Routes>
     </BrowserRouter>
 }
